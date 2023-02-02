@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Principal</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="Resources.qrc">
+    <normaloff>:/img/barras.png</normaloff>:/img/barras.png</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(107, 196, 255);</string>
   </property>
@@ -196,6 +200,10 @@
    </property>
   </action>
   <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/img/salir.png</normaloff>:/img/salir.png</iconset>
+   </property>
    <property name="text">
     <string>Salir</string>
    </property>

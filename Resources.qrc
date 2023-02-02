@@ -3,5 +3,7 @@
         <file>img/Save.ico</file>
         <file>img/new-document.png</file>
         <file>img/save-data.png</file>
+        <file>img/salir.png</file>
+        <file>img/barras.png</file>
     </qresource>
 </RCC>
