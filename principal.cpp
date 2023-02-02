@@ -34,7 +34,7 @@ void Principal::dibujar()
     // Crear un pincel para los bordes
     QPen pincel;
     pincel.setWidth(5);
-    pincel.setColor(Qt::black);
+    pincel.setColor(Qt::red);
     pincel.setJoinStyle(Qt::MiterJoin);
 
     // Establecer el pincel al "pintor"
@@ -98,6 +98,8 @@ void Principal::on_actionGuardar_triggered()
 }
 
 
+
+
 void Principal::on_in_Nota_1_valueChanged(int arg1)
 {
     m_nota_1 = arg1;
@@ -118,6 +120,17 @@ void Principal::on_in_Nota_3_valueChanged(int arg1)
 {
     m_nota_3 = arg1;
     dibujar();
+    ui->outCuadro->setPixmap(m_lienzo);
+}
+
+
+void Principal::on_actionNuevo_triggered()
+{
+    ui->in_Nota_1->setValue(0);
+    ui->in_Nota_2->setValue(0);
+    ui->in_Nota_3->setValue(0);
+    ui->outCuadro->clear();
+    m_lienzo.fill(Qt::white);
     ui->outCuadro->setPixmap(m_lienzo);
 }
 

@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Principal</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(107, 196, 255);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
@@ -59,7 +62,11 @@
              </widget>
             </item>
             <item row="0" column="1">
-             <widget class="QSpinBox" name="in_Nota_1"/>
+             <widget class="QSpinBox" name="in_Nota_1">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="label_2">
@@ -69,7 +76,11 @@
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="QSpinBox" name="in_Nota_2"/>
+             <widget class="QSpinBox" name="in_Nota_2">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
             </item>
             <item row="2" column="0">
              <widget class="QLabel" name="label_3">
@@ -79,13 +90,20 @@
              </widget>
             </item>
             <item row="2" column="1">
-             <widget class="QSpinBox" name="in_Nota_3"/>
+             <widget class="QSpinBox" name="in_Nota_3">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="pushButton">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(182, 180, 184);</string>
+           </property>
            <property name="text">
             <string>Promediar</string>
            </property>
@@ -120,7 +138,13 @@
      <height>22</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
    <widget class="QMenu" name="menuArchivo">
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
     <property name="title">
      <string>Archivo</string>
     </property>
@@ -134,6 +158,9 @@
   <widget class="QToolBar" name="toolBar">
    <property name="windowTitle">
     <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(222, 222, 222);</string>
    </property>
    <property name="movable">
     <bool>true</bool>
